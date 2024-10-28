@@ -83,6 +83,7 @@
             </button>
         </div>
     </div>
+    <div></div>
 
     <!-- Clock Modification -->
     <div class="Clock" data-aos="flip-left"
@@ -132,6 +133,7 @@
         </div>
       </section>
 
+      <ul id="taskList"></ul>
       <div class="buttons-wrapper mt-0">
         <div class="button-div">
             <button type="button" id="myBtn" class="myBtn">Add a new task</button>
@@ -186,6 +188,11 @@
                         </button>
                     </div>
                 </div>
+                <div>
+                    <input type="date" id="dueDateInput" />
+                    <button onclick="addTask()">Add Task</button>
+                    
+                    <ul id="taskList"></ul></div>
             </form>
         </div>
     </div>
